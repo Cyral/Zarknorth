@@ -45,6 +45,6 @@ _This video features most of the current features, except some newer work such a
 
 Development Help: Pugmatt, Fer22f
 
-Graphics: Kentiya
+Graphics: Kentiya, SmittyW
 
 Video Music: Joshua Stone
