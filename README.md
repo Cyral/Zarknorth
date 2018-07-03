@@ -40,3 +40,11 @@ _This video features most of the current features, except some newer work such a
 ![](https://media.indiedb.com/images/games/1/28/27424/Zarknorth_2014-01-20_10-52-06-09.png)
 
 ![](https://media.indiedb.com/images/games/1/28/27424/9dv6.png)
+
+## Credits
+
+Development Help: Pugmatt, Fer22f
+
+Graphics: Kentiya
+
+Video Music: Joshua Stone
