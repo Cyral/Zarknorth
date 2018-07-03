@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{932C3D56-99F8-4A20-AD55-D46BE7DA09C8}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZarknorthClient</RootNamespace>
+    <AssemblyName>Zarknorth</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaOutputType>Game</XnaOutputType>
+    <XapFilename>$(AssemblyName).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <XnaWindowsPhoneManifestTemplate>Properties\WMAppManifest.xml</XnaWindowsPhoneManifestTemplate>
+    <TileImage>Background.png</TileImage>
+    <TileTitle>Zarknorth</TileTitle>
+    <SupportedCultures>
+    </SupportedCultures>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <Thumbnail>thumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <PublishUrl>C:\Users\Cyral\Desktop\Dev\Deploy\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://zarknorth.com/forum</SupportUrl>
+    <ErrorReportUrl>http://zarknorth.com/forum</ErrorReportUrl>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>Zarknorth</ProductName>
+    <PublisherName>Zarknorth</PublisherName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>ZarknorthClient.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestTimestampUrl>
+    </ManifestTimestampUrl>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F85A838EE4D5CC5B93CDB563B968E25B980F83B9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Zarknorth Client_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Achievement.cs" />
+    <Compile Include="ActionQueue.cs" />
+    <Compile Include="Animation\Animation.cs" />
+    <Compile Include="Animation\AnimationPlayer.cs" />
+    <Compile Include="Audio\FadableSoundEffectInstance.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="Entities\Archive\Ball.cs" />
+    <Compile Include="Entities\Person.cs" />
+    <Compile Include="Entities\PhysicsEntity.cs" />
+    <Compile Include="ErrorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorForm.Designer.cs">
+      <DependentUpon>ErrorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Controls\ContentPackListControl.cs" />
+    <Compile Include="Interface\Controls\DebugLabel.cs" />
+    <Compile Include="Interface\Controls\Items\ItemListControl.cs" />
+    <Compile Include="Interface\Controls\PlanetListItem.cs" />
+    <Compile Include="Interface\Controls\PlayerStatus\LavaStatus.cs" />
+    <Compile Include="Interface\Controls\ProfileColorPicker.cs" />
+    <Compile Include="Interface\Tasks\TaskItemBox.cs" />
+    <Compile Include="Interface\Tasks\TaskSandbox.cs" />
+    <Compile Include="Interface\Tasks\TaskProfile.cs" />
+    <Compile Include="Interface\Tasks\TaskRename.cs" />
+    <Compile Include="Interface\Tasks\TaskContentPacks.cs" />
+    <Compile Include="Interface\Tasks\TaskTimer.cs" />
+    <Compile Include="Items\EditTool.cs" />
+    <Compile Include="Items\Item.cs" />
+    <Compile Include="LevelCamera.cs" />
+    <Compile Include="Encryption.cs" />
+    <Compile Include="Entities\BoxCollisionEntity.cs" />
+    <Compile Include="Entities\Character.cs" />
+    <Compile Include="DamageTypes.cs" />
+    <Compile Include="Entities\IEntity.cs" />
+    <Compile Include="Entities\Npc.cs" />
+    <Compile Include="Entities\PlayerCharacter.cs" />
+    <Compile Include="Automata\FallingBlocks.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="Interface\Commands\Commands.cs" />
+    <Compile Include="Interface\Controls\Achievements\AchievementLogItem.cs" />
+    <Compile Include="Interface\Controls\ControlList.cs" />
+    <Compile Include="Interface\Controls\ClearTip.cs" />
+    <Compile Include="Interface\Controls\GradientPanel.cs" />
+    <Compile Include="Interface\Controls\PlanetControl.cs" />
+    <Compile Include="Interface\Controls\Items\SlotContainer.cs" />
+    <Compile Include="Interface\Controls\Items\SlotControl.cs" />
+    <Compile Include="Interface\Controls\PlayerStatus\AchievementStatus.cs" />
+    <Compile Include="Interface\Controls\PlayerStatus\BreathStatus.cs" />
+    <Compile Include="Interface\Controls\PlayerStatus\DrownStatus.cs" />
+    <Compile Include="Interface\Controls\PlayerStatus\FireStatus.cs" />
+    <Compile Include="Interface\Controls\PlayerStatus\StatusBox.cs" />
+    <Compile Include="Interface\Controls\SlotFloatLabel.cs" />
+    <Compile Include="Interface\Tasks\DirectConnect.cs" />
+    <Compile Include="Interface\Controls\FloatLabel.cs" />
+    <Compile Include="Interface\Tasks\TaskAchievementLog.cs" />
+    <Compile Include="Interface\Tasks\TaskCreatePortal.cs" />
+    <Compile Include="Interface\Tasks\TaskCrafting.cs" />
+    <Compile Include="Interface\Tasks\TaskDeath.cs" />
+    <Compile Include="Interface\Tasks\TaskKeyboard.cs" />
+    <Compile Include="Interface\Tasks\TaskMusic.cs" />
+    <Compile Include="Interface\Tasks\TaskPaint.cs" />
+    <Compile Include="Interface\Tasks\TaskSign.cs" />
+    <Compile Include="Interface\Tasks\TaskSinglePlayer.cs" />
+    <Compile Include="Interface\Tasks\TaskStorage.cs" />
+    <Compile Include="IO.cs" />
+    <Compile Include="Items\BlockItemEvents.cs" />
+    <Compile Include="Items\Crafting.cs" />
+    <Compile Include="Items\ItemCategories.cs" />
+    <Compile Include="Items\ItemEvents.cs" />
+    <Compile Include="Items\Slot.cs" />
+    <Compile Include="Items\Tile.cs" />
+    <Compile Include="Audio\Main.cs" />
+    <Compile Include="Audio\Ocsillator.cs" />
+    <Compile Include="Audio\SoundHelper.cs" />
+    <Compile Include="Audio\Synth.cs" />
+    <Compile Include="Audio\Voice.cs" />
+    <Compile Include="Entities\Archive\Npc.cs" />
+    <Compile Include="Entities\Archive\NpcAI.cs" />
+    <Compile Include="Entities\Archive\NpcTypes.cs" />
+    <Compile Include="Entities\CollectableItem.cs" />
+    <Compile Include="Interface\Layout.cs" />
+    <Compile Include="Interface\Logic.cs" />
+    <Compile Include="Interface\Tasks\TaskCredits.cs" />
+    <Compile Include="Interface\Tasks\TaskLauncher.cs" />
+    <Compile Include="Interface\Tasks\TaskMultiplayer.cs" />
+    <Compile Include="Interface\Tasks\TaskOptions.cs" />
+    <Compile Include="LevelData.cs" />
+    <Compile Include="Lighting.cs" />
+    <Compile Include="Particles\Lightning.cs" />
+    <Compile Include="Particles\Particle.cs" />
+    <Compile Include="Particles\ParticleEngine.cs" />
+    <Compile Include="Layer.cs" />
+    <Compile Include="Level.cs" />
+    <Compile Include="GameClient.cs" />
+    <Compile Include="Automata\Liquid.cs" />
+    <Compile Include="Entities\Archive\Player.cs" />
+    <Compile Include="PlanetaryObjects.cs" />
+    <Compile Include="PlanetNamer.cs" />
+    <Compile Include="Primitives.cs" />
+    <Compile Include="Profiler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="SpriteSheet.cs" />
+    <Compile Include="ContentPack.cs" />
+    <Compile Include="TileWrapper.cs" />
+    <Compile Include="UniverseViewer.cs" />
+    <Compile Include="Wire.cs" />
+    <Compile Include="World Generation\Biomes.cs" />
+    <Compile Include="World Generation\Castle.cs" />
+    <Compile Include="World Generation\Igloo.cs" />
+    <Compile Include="World Generation\Loader.cs" />
+    <Compile Include="World Generation\PerlinNoise.cs" />
+    <Compile Include="World Generation\PerlinSettings.cs" />
+    <Compile Include="World Generation\Room.cs" />
+    <Compile Include="World Generation\Structures.cs" />
+    <Compile Include="World Generation\VeinSettings.cs" />
+    <Compile Include="World Generation\Viens.cs" />
+    <Compile Include="World Generation\Weather.cs" />
+    <Compile Include="World Generation\WorldGen.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Cyral.Extensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Cyral.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.WindowsAPICodePack">
+      <HintPath>..\References\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell">
+      <HintPath>..\References\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TomShane.Neoforce.Controls, Version=0.7.2407.1915, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\TomShane.Neoforce.Controls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Content\Content.contentproj">
+      <Project>{2FDB7EF3-D3C4-47A3-8E75-C901A05B8574}</Project>
+      <Name>Content</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Compile Include="Automata\Fire.cs" />
+    <None Include="Interface\Controls\ControlTemplate.txt" />
+    <Compile Include="Interface\Controls\Items\ItemToolTip.cs" />
+    <Content Include="thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ErrorForm.resx">
+      <DependentUpon>ErrorForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

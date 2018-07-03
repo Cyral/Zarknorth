@@ -1,0 +1,25 @@
+﻿using System;
+using Microsoft.Xna.Framework;
+using TomShane.Neoforce.Controls;
+
+namespace ZarknorthClient
+{
+    public class ControlName : Control
+    {
+	    #region Properties
+		#endregion
+
+		#region Controls
+		#endregion
+
+        public ControlName(Manager manager) : base(manager)
+        {
+            Passive = false;
+			//TODO: Add Initialization logic and controls
+        }
+        public override void DrawControl(Renderer renderer, Rectangle rect, GameTime gameTime)
+        {
+            //base.DrawControl(renderer,rect,gameTime);
+        }
+    }
+}
