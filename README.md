@@ -15,6 +15,7 @@ _This video features most of the current features, except some newer work such a
 ## How to Play:
 
 - Download the compiled version [here](https://github.com/Cyral/Zarknorth/releases).
+- You may need to install the [XNA Game Framework](https://www.microsoft.com/en-us/download/details.aspx?id=20914).
 - Start Zarknorth.exe and click the start button once the launcher loads.
 - From here, you can play the story mode or create a sandbox world. I would highly recommend the sandbox world, since the story mode has no story or progression so you cannot get very far. 
 - In the sandbox mode dialog, type a world name and choose a world size and click "Create". I would recommend smaller worlds to start, as the larger ones can take a while to generate and settle liquids.
