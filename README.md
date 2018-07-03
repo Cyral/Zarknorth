@@ -2,7 +2,7 @@
 
 ![Header](https://i.pyratron.com/HUHnQ.png)
 
-Zarknorth was a 2D adventure game that I worked on from 2012 to 2014 with [@Pugmatt](https://github.com/Pugmatt). It is heavily inspired by Terraria and Starbound. In its current state, it is incomplete abd there are no plans to continue with the project, but the current version is somewhat playable. It has a fairly good custom game engine and a ton of features, but it lacks gameplay and progression that would tie it together as a finished game.
+Zarknorth was a 2D adventure game that I worked on from 2012 to 2014 with [@Pugmatt](https://github.com/Pugmatt). It is heavily inspired by Terraria and Starbound. In its current state, it is incomplete and there are no plans to continue with the project, but the current version is somewhat playable. It has a fairly good custom game engine and a ton of features, but it lacks gameplay and progression that would tie it together as a finished game.
 
 I spent a lot of time making this game to not finish it, but I learned a ton about programming which made it worth the effort. I started with very limiting scripting experience (and there is still a ton of bad code in this codebase), but by the end of it I became very confident with object oriented programming and design which has led me to work on other projects.
 
@@ -14,7 +14,7 @@ _This video features most of the current features, except some newer work such a
 
 ## How to Play:
 
-- Download the compiled version [here]().
+- Download the compiled version [here](https://github.com/Cyral/Zarknorth/releases).
 - Start Zarknorth.exe and click the start button once the launcher loads.
 - From here, you can play the story mode or create a sandbox world. I would highly recommend the sandbox world, since the story mode has no story or progression so you cannot get very far. 
 - In the sandbox mode dialog, type a world name and choose a world size and click "Create". I would recommend smaller worlds to start, as the larger ones can take a while to generate and settle liquids.
